@@ -12,8 +12,8 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 # ==========================================
 # GITHUB OAUTH CREDENTIALS
 # ==========================================
-GITHUB_CLIENT_ID = "Ov23liVcaUbQFWgyrYqK"
-GITHUB_CLIENT_SECRET = "0383cdbdf127a5e613b51d67b974569191234890"
+GITHUB_CLIENT_ID = "enter github client id of oauth app"
+GITHUB_CLIENT_SECRET = "enter github secret of oauth app"
 
 # ==========================================
 # 1. DATABASE WITH REFRESH LOGIC

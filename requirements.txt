@@ -1,0 +1,5 @@
+google-adk
+mcp
+google-genai
+fastmcp
+requests

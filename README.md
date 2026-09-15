@@ -7,6 +7,7 @@ This repository contains an ADK Agent (`adk_agent.py`) and a GitHub MCP Server (
 a.Python 3.10+ is recommended.
 b.Have access to sada-sadaindia-sandbox-ai gcp project (or some other gcp project) with Vertex AI user or Agent platform user roles
 c.Set up gcloud auth application-default login
+d.create an oauth app in github, use its client id and client secret (create a new secret once)
 
 ## Setup Instructions
 

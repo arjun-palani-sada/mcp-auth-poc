@@ -1,10 +1,12 @@
 # Workday MCP POC
 
-This repository contains an ADK Agent (`adk_agent.py`) and a GitHub MCP Server (`github_server.py`). 
+This repository contains an ADK Agent (`adk_agent.py`) and a GitHub MCP Server (`github_server.py`).
 
 ## Prerequisites
 
-Python 3.10+ is recommended.
+a.Python 3.10+ is recommended.
+b.Have access to sada-sadaindia-sandbox-ai gcp project (or some other gcp project) with Vertex AI user or Agent platform user roles
+c.Set up gcloud auth application-default login
 
 ## Setup Instructions
 
@@ -17,10 +19,13 @@ python3 -m venv venv
 2. **Activate the virtual environment:**
 
 - On macOS and Linux:
+
 ```bash
 source venv/bin/activate
 ```
+
 - On Windows:
+
 ```bash
 venv\Scripts\activate
 ```

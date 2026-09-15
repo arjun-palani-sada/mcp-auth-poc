@@ -1,5 +1,8 @@
+fastapi==0.141.1
+fastmcp==4.0.3
 google-adk
-mcp
 google-genai
-fastmcp
-requests
+mcp==2.2.0
+protobuf==7.36.1
+requests==2.34.2
+uvicorn==0.53.0
